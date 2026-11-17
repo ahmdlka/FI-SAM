@@ -1,0 +1,88 @@
+average_cost[0] = 4.50
+average_cost[1] = 5.75
+average_cost[2] = 6.50
+average_cost_multiply_supply[0] = 99.00
+average_cost_multiply_supply[1] = 86.25
+average_cost_multiply_supply[2] = 52.00
+Jumlah Supply: 3
+Jumlah Demand: 4
+
+
+(Tabel Awal)
+--------------------------------------------
+6	3	5	4	| 22
+5	9	2	7	| 15
+5	7	8	6	| 8
+_______	_______	_______	_______	
+7	12	17	9	
+--------------------------------------------
+
+6	5	5	lokasi min : 1,0
+3	9	7	lokasi min : 0,1
+5	2	8	lokasi min : 1,2
+4	7	6	lokasi min : 0,3
+ITER 0
+
+
+6 [0]	3 [12]	5 [0]	4 [9]	| 22	T. Alloc : 21	AC * S = 99.00	
+5 [7]	9 [0]	2 [17]	7 [0]	| 15	T. Alloc : 24	AC * S = 86.25	Status = ER	
+5 [0]	7 [0]	8 [0]	6 [0]	| 8	T. Alloc : 0	AC * S = 52.00	
+
+FLC[0] = 1, SLC[0] = 2
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = 1, SLC[2] = 0
+FLC[3] = -1, SLC[3] = -1
+
+diff[0] = 0
+diff[2] = 3
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 2 dulu - elselebihbesar
+ITER 1
+
+
+6 [0]	3 [12]	5 [0]	4 [9]	| 22	T. Alloc : 21	AC * S = 99.00	
+5 [0]	9 [0]	2 [17]	7 [0]	| 15	T. Alloc : 17	AC * S = 86.25	Status = ER	
+5 [7]	7 [0]	8 [0]	6 [0]	| 8	T. Alloc : 7	AC * S = 52.00	
+
+FLC[0] = -1, SLC[0] = -1
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = 1, SLC[2] = 0
+FLC[3] = -1, SLC[3] = -1
+
+diff[2] = 3
+Selisih terkecil ada di kolom ke : 2
+ER Lebih Kecil 
+satisfy supply baris index 1 duluheyITER 2
+
+
+6 [0]	3 [12]	5 [2]	4 [9]	| 22	T. Alloc : 23	AC * S = 99.00	Status = ER	
+5 [0]	9 [0]	2 [15]	7 [0]	| 15	T. Alloc : 15	AC * S = 86.25	Status = SATISFY
+5 [7]	7 [0]	8 [0]	6 [0]	| 8	T. Alloc : 7	AC * S = 52.00	
+
+FLC[0] = -1, SLC[0] = -1
+FLC[1] = 0, SLC[1] = 2
+FLC[2] = 0, SLC[2] = 2
+FLC[3] = 0, SLC[3] = 2
+
+diff[1] = 4
+diff[2] = 3
+diff[3] = 2
+Selisih terkecil ada di kolom ke : 3
+ER Lebih Kecil 
+satisfy supply baris index 2 dulu - elselebihkecil
+ITER 3
+
+
+6 [0]	3 [12]	5 [2]	4 [8]	| 22	T. Alloc : 22	AC * S = 99.00	Status = SATISFY
+5 [0]	9 [0]	2 [15]	7 [0]	| 15	T. Alloc : 15	AC * S = 86.25	Status = SATISFY
+5 [7]	7 [0]	8 [0]	6 [1]	| 8	T. Alloc : 8	AC * S = 52.00	Status = SATISFY
+
+Sudah habis
+
+6 [0]	3 [12]	5 [2]	4 [8]	| 22	Total alloc : 22	
+5 [0]	9 [0]	2 [15]	7 [0]	| 15	Total alloc : 15	
+5 [7]	7 [0]	8 [0]	6 [1]	| 8	Total alloc : 8	
+
+Jumlah iterasi yang dijalankan: 3
+Total Alokasi tabel adalah: 149

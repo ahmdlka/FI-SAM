@@ -1,0 +1,69 @@
+average_cost[0] = 8.00
+average_cost[1] = 9.67
+average_cost[2] = 7.00
+average_cost_multiply_supply[0] = 1200.00
+average_cost_multiply_supply[1] = 1691.67
+average_cost_multiply_supply[2] = 1925.00
+Jumlah Supply: 3
+Jumlah Demand: 3
+
+
+(Tabel Awal)
+--------------------------------------------
+6	8	10	| 150
+7	11	11	| 175
+4	5	12	| 275
+_______	_______	_______	
+200	100	300	
+--------------------------------------------
+
+6	7	4	lokasi min : 2,0
+8	11	5	lokasi min : 2,1
+10	11	12	lokasi min : 0,2
+ITER 0
+
+
+6 [0]	8 [0]	10 [300]	| 150	T. Alloc : 300	AC * S = 1200.00	Status = ER	
+7 [0]	11 [0]	11 [0]	| 175	T. Alloc : 0	AC * S = 1691.67	
+4 [200]	5 [100]	12 [0]	| 275	T. Alloc : 300	AC * S = 1925.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = 2, SLC[1] = 1
+FLC[2] = 0, SLC[2] = 1
+
+diff[0] = 3
+diff[1] = 6
+diff[2] = 1
+Selisih terkecil ada di kolom ke : 2
+satisfy supply baris index 1 dulu - elselebihkecil
+ITER 1
+
+
+6 [0]	8 [0]	10 [125]	| 150	T. Alloc : 125	AC * S = 1200.00	
+7 [0]	11 [0]	11 [175]	| 175	T. Alloc : 175	AC * S = 1691.67	Status = SATISFY
+4 [200]	5 [100]	12 [0]	| 275	T. Alloc : 300	AC * S = 1925.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 0
+FLC[1] = 2, SLC[1] = 0
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 2
+diff[1] = 3
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 0 dulu - elselebihkecil
+ITER 2
+
+
+6 [25]	8 [0]	10 [125]	| 150	T. Alloc : 150	AC * S = 1200.00	Status = SATISFY
+7 [0]	11 [0]	11 [175]	| 175	T. Alloc : 175	AC * S = 1691.67	Status = SATISFY
+4 [175]	5 [100]	12 [0]	| 275	T. Alloc : 275	AC * S = 1925.00	Status = SATISFY
+
+Sudah habis
+
+6 [25]	8 [0]	10 [125]	| 150	Total alloc : 150	
+7 [0]	11 [0]	11 [175]	| 175	Total alloc : 175	
+4 [175]	5 [100]	12 [0]	| 275	Total alloc : 275	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 4525

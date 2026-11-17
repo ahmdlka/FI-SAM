@@ -1,0 +1,73 @@
+average_cost[0] = 13.25
+average_cost[1] = 15.00
+average_cost[2] = 14.00
+average_cost_multiply_supply[0] = 397.50
+average_cost_multiply_supply[1] = 750.00
+average_cost_multiply_supply[2] = 280.00
+Jumlah Supply: 3
+Jumlah Demand: 4
+
+
+(Tabel Awal)
+--------------------------------------------
+20	2	20	11	| 30
+24	7	9	20	| 50
+8	14	16	18	| 20
+_______	_______	_______	_______	
+10	30	30	30	
+--------------------------------------------
+
+20	24	8	lokasi min : 2,0
+2	7	14	lokasi min : 0,1
+20	9	16	lokasi min : 1,2
+11	20	18	lokasi min : 0,3
+ITER 0
+
+
+20 [0]	2 [30]	20 [0]	11 [30]	| 30	T. Alloc : 60	AC * S = 397.50	Status = ER	
+24 [0]	7 [0]	9 [30]	20 [0]	| 50	T. Alloc : 30	AC * S = 750.00	
+8 [10]	14 [0]	16 [0]	18 [0]	| 20	T. Alloc : 10	AC * S = 280.00	
+
+FLC[0] = -1, SLC[0] = -1
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 0, SLC[3] = 2
+
+diff[1] = 5
+diff[3] = 7
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 0 duluheyITER 1
+
+
+20 [0]	2 [0]	20 [0]	11 [30]	| 30	T. Alloc : 30	AC * S = 397.50	Status = SATISFY
+24 [0]	7 [30]	9 [30]	20 [0]	| 50	T. Alloc : 60	AC * S = 750.00	Status = ER	
+8 [10]	14 [0]	16 [0]	18 [0]	| 20	T. Alloc : 10	AC * S = 280.00	
+
+FLC[0] = -1, SLC[0] = -1
+FLC[1] = 1, SLC[1] = 2
+FLC[2] = 1, SLC[2] = 2
+FLC[3] = -1, SLC[3] = -1
+
+diff[1] = 7
+diff[2] = 7
+FI-SAM kolom 1: SDiff=7, transfer=10, fit_score=0
+FI-SAM kolom 2: SDiff=7, transfer=10, fit_score=0
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 2 dulu - elselebihkecil
+ITER 2
+
+
+20 [0]	2 [0]	20 [0]	11 [30]	| 30	T. Alloc : 30	AC * S = 397.50	Status = SATISFY
+24 [0]	7 [20]	9 [30]	20 [0]	| 50	T. Alloc : 50	AC * S = 750.00	Status = SATISFY
+8 [10]	14 [10]	16 [0]	18 [0]	| 20	T. Alloc : 20	AC * S = 280.00	Status = SATISFY
+
+Sudah habis
+
+20 [0]	2 [0]	20 [0]	11 [30]	| 30	Total alloc : 30	
+24 [0]	7 [20]	9 [30]	20 [0]	| 50	Total alloc : 50	
+8 [10]	14 [10]	16 [0]	18 [0]	| 20	Total alloc : 20	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 960

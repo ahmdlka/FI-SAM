@@ -1,0 +1,72 @@
+average_cost[0] = 13.75
+average_cost[1] = 14.50
+average_cost[2] = 17.00
+average_cost_multiply_supply[0] = 3437.50
+average_cost_multiply_supply[1] = 4350.00
+average_cost_multiply_supply[2] = 6800.00
+Jumlah Supply: 3
+Jumlah Demand: 4
+
+
+(Tabel Awal)
+--------------------------------------------
+11	13	17	14	| 250
+16	18	14	10	| 300
+21	24	13	10	| 400
+_______	_______	_______	_______	
+200	225	275	250	
+--------------------------------------------
+
+11	16	21	lokasi min : 0,0
+13	18	24	lokasi min : 0,1
+17	14	13	lokasi min : 2,2
+14	10	coordinat 2, 3
+10	lokasi min : 2,3
+ITER 0
+
+
+11 [200]	13 [225]	17 [0]	14 [0]	| 250	T. Alloc : 425	AC * S = 3437.50	Status = ER	
+16 [0]	18 [0]	14 [0]	10 [0]	| 300	T. Alloc : 0	AC * S = 4350.00	
+21 [0]	24 [0]	13 [275]	10 [250]	| 400	T. Alloc : 525	AC * S = 6800.00	Status = ER	
+
+FLC[0] = 0, SLC[0] = 1
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = 2, SLC[2] = 1
+FLC[3] = 2, SLC[3] = 1
+
+diff[0] = 5
+diff[1] = 5
+diff[2] = 1
+diff[3] = 0
+Selisih terkecil ada di kolom ke : 3
+satisfy supply baris index 2 duluITER 1
+
+
+11 [200]	13 [225]	17 [0]	14 [0]	| 250	T. Alloc : 425	AC * S = 3437.50	Status = ER	
+16 [0]	18 [0]	14 [0]	10 [125]	| 300	T. Alloc : 125	AC * S = 4350.00	
+21 [0]	24 [0]	13 [275]	10 [125]	| 400	T. Alloc : 400	AC * S = 6800.00	Status = SATISFY
+
+FLC[0] = 0, SLC[0] = 1
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = -1, SLC[3] = -1
+
+diff[0] = 5
+diff[1] = 5
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 0 duluheyITER 2
+
+
+11 [200]	13 [50]	17 [0]	14 [0]	| 250	T. Alloc : 250	AC * S = 3437.50	Status = SATISFY
+16 [0]	18 [175]	14 [0]	10 [125]	| 300	T. Alloc : 300	AC * S = 4350.00	Status = SATISFY
+21 [0]	24 [0]	13 [275]	10 [125]	| 400	T. Alloc : 400	AC * S = 6800.00	Status = SATISFY
+
+Sudah habis
+
+11 [200]	13 [50]	17 [0]	14 [0]	| 250	Total alloc : 250	
+16 [0]	18 [175]	14 [0]	10 [125]	| 300	Total alloc : 300	
+21 [0]	24 [0]	13 [275]	10 [125]	| 400	Total alloc : 400	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 12075

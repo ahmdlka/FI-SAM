@@ -1,0 +1,5413 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-18T01:25:13.361711+07:00",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+    "gcc": "gcc (Rev8, Built by MSYS2 project) 15.2.0",
+    "samples": 7,
+    "target_ms": 20,
+    "hashes": {
+      "SAM.c": "c05a559e60a706daa8cc78a10320d2e2e21eb9569ea3caa763be485bdaa757f7",
+      "FI-SAM.c": "b270d1c21d864e142bc77dc68e48d42e6e8f3d5921bb51fadbdcd27f710bdf25"
+    },
+    "source_adapter_hashes": {
+      "SAM_raw": "847bed4c7b725b588e2c293068ebc02f31bac3098ce948b91764e0a387820518",
+      "SAM": "bd41b0a67e422c677c763d3b4828bd6f48e63c4c2b1d8cd8d5fe4e037551e3d0",
+      "FI-SAM": "612706d6e7221a1b574db5460f1816b81c733a6160cfdb249b81320a099dccf6"
+    }
+  },
+  "profiles": {
+    "unlimited": {
+      "SAM_raw": [
+        {
+          "case": "01_N01",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 5600,
+          "cost": 5600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "02_N02",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 28,
+          "cost": 28,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "03_N03",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1102,
+          "cost": 1134,
+          "feasible": true,
+          "gap_pct": 2.9038112522686026,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "04_N04",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1580,
+          "cost": 1580,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "05_N05",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 410,
+          "cost": 430,
+          "feasible": true,
+          "gap_pct": 4.878048780487805,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "06_N06",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 7750,
+          "cost": 7750,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "07_N07",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1160,
+          "cost": 1165,
+          "feasible": true,
+          "gap_pct": 0.43103448275862066,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "08_N09",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 111,
+          "cost": 111,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "09_N10",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 910,
+          "cost": 960,
+          "feasible": true,
+          "gap_pct": 5.4945054945054945,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "10_N11",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 2460,
+          "cost": 2500,
+          "feasible": true,
+          "gap_pct": 1.6260162601626016,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "11_N12",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 425,
+          "cost": 425,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "12_N13",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 4525,
+          "cost": 4525,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "13_N14",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 920,
+          "cost": 920,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "14_N15",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 156,
+          "cost": 156,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "15_N16",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1510,
+          "cost": 1510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "16_N17",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 743,
+          "cost": 743,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "17_N18",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1650,
+          "cost": 1695,
+          "feasible": true,
+          "gap_pct": 2.727272727272727,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "18_N21",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 4205,
+          "cost": 4205,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "19_N22",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 12075,
+          "cost": 12075,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "20_N23",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 23,
+          "cost": 23,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "21_N24",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 3460,
+          "cost": 3460,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "22_N25",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 809,
+          "cost": 809,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "23_N26",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 490,
+          "cost": 490,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "24_N27",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 59356,
+          "cost": 59356,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "25_N28",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 2090,
+          "cost": 2540,
+          "feasible": true,
+          "gap_pct": 21.5311004784689,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "26_N29",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 3857,
+          "cost": 3857,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "27_N30",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 465,
+          "cost": 465,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "28_N31",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1480,
+          "cost": 1480,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "29_N32",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1780,
+          "cost": 1820,
+          "feasible": true,
+          "gap_pct": 2.247191011235955,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "30_N33",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1250,
+          "cost": 1310,
+          "feasible": true,
+          "gap_pct": 4.8,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "31_N34",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 510,
+          "cost": 510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "32_N35",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 280,
+          "cost": 280,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "33_S1",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 18855,
+          "cost": 18855,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "34_S2",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 153500,
+          "cost": 153500,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "35_S3",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1044180,
+          "cost": 1044180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "36_S4",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 92212,
+          "cost": 94263,
+          "feasible": true,
+          "gap_pct": 2.2242224439335443,
+          "transfers": 16,
+          "iteration_counter": 16,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "37_S5",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 116020,
+          "cost": 116020,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "38_Real1",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 12928429,
+          "cost": 12928429,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "39_Real2",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 13657053,
+          "cost": 13657053,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "40_Real3",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 12296587,
+          "cost": 12296587,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "41_Real4",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 14117586,
+          "cost": 14117586,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "42_Real5",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 14017419,
+          "cost": 14017419,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "43_P01",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 605,
+          "cost": 605,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "44_P02",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 2850,
+          "cost": 2850,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "45_P03",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 149,
+          "cost": 149,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "46_P04",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 450,
+          "cost": 450,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "47_P05",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 290,
+          "cost": 290,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "48_P06",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 49,
+          "cost": 49,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "49_P07",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 291,
+          "cost": 291,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "50_P08",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 10625,
+          "cost": 10625,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "51_P09",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 845,
+          "cost": 845,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "52_P10",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 212,
+          "cost": 212,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "53_P11",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 600,
+          "cost": 600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "54_P12",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 180,
+          "cost": 180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "55_P13",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 3210,
+          "cost": 3450,
+          "feasible": true,
+          "gap_pct": 7.4766355140186915,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "56_P14",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 175,
+          "cost": 175,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "57_P15",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 10830,
+          "cost": 10830,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "58_P16",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 325,
+          "cost": 355,
+          "feasible": true,
+          "gap_pct": 9.23076923076923,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "59_P17",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 475,
+          "cost": 475,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "60_P18",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 555,
+          "cost": 555,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "61_P19",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1390,
+          "cost": 1450,
+          "feasible": true,
+          "gap_pct": 4.316546762589928,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "62_P20",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 3320,
+          "cost": 3500,
+          "feasible": true,
+          "gap_pct": 5.421686746987952,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "63_S01",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 5067,
+          "cost": 5420,
+          "feasible": true,
+          "gap_pct": 6.966646931122953,
+          "transfers": 11,
+          "iteration_counter": 11,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "64_S02",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1080,
+          "cost": 1194,
+          "feasible": true,
+          "gap_pct": 10.555555555555555,
+          "transfers": 13,
+          "iteration_counter": 13,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "65_S03",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 885,
+          "cost": 1020,
+          "feasible": true,
+          "gap_pct": 15.254237288135593,
+          "transfers": 12,
+          "iteration_counter": 12,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "66_S04",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 3125,
+          "cost": 3285,
+          "feasible": true,
+          "gap_pct": 5.12,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "67_S05",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 1586,
+          "cost": 1799,
+          "feasible": true,
+          "gap_pct": 13.43001261034048,
+          "transfers": 25,
+          "iteration_counter": 25,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "68_S06",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 4702,
+          "cost": 5287,
+          "feasible": true,
+          "gap_pct": 12.441514249255636,
+          "transfers": 36,
+          "iteration_counter": 36,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "69_S07",
+          "variant": "SAM_raw",
+          "iteration_limit": null,
+          "reference": 305,
+          "cost": 326,
+          "feasible": true,
+          "gap_pct": 6.885245901639344,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        }
+      ],
+      "SAM": [
+        {
+          "case": "01_N01",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 5600,
+          "cost": 5600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "02_N02",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 28,
+          "cost": 28,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "03_N03",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1102,
+          "cost": 1134,
+          "feasible": true,
+          "gap_pct": 2.9038112522686026,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "04_N04",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1580,
+          "cost": 1580,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "05_N05",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 410,
+          "cost": 430,
+          "feasible": true,
+          "gap_pct": 4.878048780487805,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "06_N06",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 7750,
+          "cost": 7750,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "07_N07",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1160,
+          "cost": 1165,
+          "feasible": true,
+          "gap_pct": 0.43103448275862066,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "08_N09",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 111,
+          "cost": 111,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "09_N10",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 910,
+          "cost": 960,
+          "feasible": true,
+          "gap_pct": 5.4945054945054945,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "10_N11",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 2460,
+          "cost": 2500,
+          "feasible": true,
+          "gap_pct": 1.6260162601626016,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "11_N12",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 425,
+          "cost": 425,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "12_N13",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 4525,
+          "cost": 4525,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "13_N14",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 920,
+          "cost": 920,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "14_N15",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 156,
+          "cost": 156,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "15_N16",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1510,
+          "cost": 1510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "16_N17",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 743,
+          "cost": 743,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "17_N18",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1650,
+          "cost": 1695,
+          "feasible": true,
+          "gap_pct": 2.727272727272727,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "18_N21",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 4205,
+          "cost": 4205,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "19_N22",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 12075,
+          "cost": 12075,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "20_N23",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 23,
+          "cost": 23,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "21_N24",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 3460,
+          "cost": 3460,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "22_N25",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 809,
+          "cost": 809,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "23_N26",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 490,
+          "cost": 490,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "24_N27",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 59356,
+          "cost": 59356,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "25_N28",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 2090,
+          "cost": 2540,
+          "feasible": true,
+          "gap_pct": 21.5311004784689,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "26_N29",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 3857,
+          "cost": 3857,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "27_N30",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 465,
+          "cost": 465,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "28_N31",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1480,
+          "cost": 1480,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "29_N32",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1780,
+          "cost": 1820,
+          "feasible": true,
+          "gap_pct": 2.247191011235955,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "30_N33",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1250,
+          "cost": 1310,
+          "feasible": true,
+          "gap_pct": 4.8,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "31_N34",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 510,
+          "cost": 510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "32_N35",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 280,
+          "cost": 280,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "33_S1",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 18855,
+          "cost": 18855,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "34_S2",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 153500,
+          "cost": 153500,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "35_S3",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1044180,
+          "cost": 1044180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "36_S4",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 92212,
+          "cost": 94263,
+          "feasible": true,
+          "gap_pct": 2.2242224439335443,
+          "transfers": 16,
+          "iteration_counter": 16,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "37_S5",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 116020,
+          "cost": 116020,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "38_Real1",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 12928429,
+          "cost": 12928429,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "39_Real2",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 13657053,
+          "cost": 13657053,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "40_Real3",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 12296587,
+          "cost": 12296587,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "41_Real4",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 14117586,
+          "cost": 14117586,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "42_Real5",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 14017419,
+          "cost": 14017419,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "43_P01",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 605,
+          "cost": 605,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "44_P02",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 2850,
+          "cost": 2850,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "45_P03",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 149,
+          "cost": 149,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "46_P04",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 450,
+          "cost": 450,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "47_P05",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 290,
+          "cost": 290,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "48_P06",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 49,
+          "cost": 49,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "49_P07",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 291,
+          "cost": 291,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "50_P08",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 10625,
+          "cost": 10625,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "51_P09",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 845,
+          "cost": 845,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "52_P10",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 212,
+          "cost": 212,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "53_P11",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 600,
+          "cost": 600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "54_P12",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 180,
+          "cost": 180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "55_P13",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 3210,
+          "cost": 3450,
+          "feasible": true,
+          "gap_pct": 7.4766355140186915,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "56_P14",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 175,
+          "cost": 175,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "57_P15",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 10830,
+          "cost": 10830,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "58_P16",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 325,
+          "cost": 355,
+          "feasible": true,
+          "gap_pct": 9.23076923076923,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "59_P17",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 475,
+          "cost": 475,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "60_P18",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 555,
+          "cost": 555,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "61_P19",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1390,
+          "cost": 1450,
+          "feasible": true,
+          "gap_pct": 4.316546762589928,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "62_P20",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 3320,
+          "cost": 3500,
+          "feasible": true,
+          "gap_pct": 5.421686746987952,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "63_S01",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 5067,
+          "cost": 5420,
+          "feasible": true,
+          "gap_pct": 6.966646931122953,
+          "transfers": 11,
+          "iteration_counter": 11,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "64_S02",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1080,
+          "cost": 1194,
+          "feasible": true,
+          "gap_pct": 10.555555555555555,
+          "transfers": 13,
+          "iteration_counter": 13,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "65_S03",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 885,
+          "cost": 1020,
+          "feasible": true,
+          "gap_pct": 15.254237288135593,
+          "transfers": 12,
+          "iteration_counter": 12,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "66_S04",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 3125,
+          "cost": 3285,
+          "feasible": true,
+          "gap_pct": 5.12,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "67_S05",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 1586,
+          "cost": 1799,
+          "feasible": true,
+          "gap_pct": 13.43001261034048,
+          "transfers": 25,
+          "iteration_counter": 25,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "68_S06",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 4702,
+          "cost": 5287,
+          "feasible": true,
+          "gap_pct": 12.441514249255636,
+          "transfers": 36,
+          "iteration_counter": 36,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "69_S07",
+          "variant": "SAM",
+          "iteration_limit": null,
+          "reference": 305,
+          "cost": 326,
+          "feasible": true,
+          "gap_pct": 6.885245901639344,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        }
+      ],
+      "FI-SAM": [
+        {
+          "case": "01_N01",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 5600,
+          "cost": 5600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "02_N02",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 28,
+          "cost": 28,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "03_N03",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1102,
+          "cost": 1134,
+          "feasible": true,
+          "gap_pct": 2.9038112522686026,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "04_N04",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1580,
+          "cost": 1580,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "05_N05",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 410,
+          "cost": 410,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "06_N06",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 7750,
+          "cost": 7750,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "07_N07",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1160,
+          "cost": 1165,
+          "feasible": true,
+          "gap_pct": 0.43103448275862066,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 7,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "08_N09",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 111,
+          "cost": 111,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "09_N10",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 910,
+          "cost": 960,
+          "feasible": true,
+          "gap_pct": 5.4945054945054945,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "10_N11",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 2460,
+          "cost": 2500,
+          "feasible": true,
+          "gap_pct": 1.6260162601626016,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "11_N12",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 425,
+          "cost": 425,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "12_N13",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 4525,
+          "cost": 4525,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "13_N14",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 920,
+          "cost": 920,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "14_N15",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 156,
+          "cost": 156,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "15_N16",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1510,
+          "cost": 1510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "16_N17",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 743,
+          "cost": 743,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "17_N18",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1650,
+          "cost": 1695,
+          "feasible": true,
+          "gap_pct": 2.727272727272727,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "18_N21",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 4205,
+          "cost": 4205,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "19_N22",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 12075,
+          "cost": 12075,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "20_N23",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 23,
+          "cost": 23,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "21_N24",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 3460,
+          "cost": 3460,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "22_N25",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 809,
+          "cost": 809,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "23_N26",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 490,
+          "cost": 490,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "24_N27",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 59356,
+          "cost": 59356,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "25_N28",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 2090,
+          "cost": 2540,
+          "feasible": true,
+          "gap_pct": 21.5311004784689,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 5,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "26_N29",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 3857,
+          "cost": 3857,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "27_N30",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 465,
+          "cost": 465,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "28_N31",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1480,
+          "cost": 1480,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "29_N32",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1780,
+          "cost": 1780,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "30_N33",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1250,
+          "cost": 1310,
+          "feasible": true,
+          "gap_pct": 4.8,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "31_N34",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 510,
+          "cost": 510,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "32_N35",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 280,
+          "cost": 280,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "33_S1",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 18855,
+          "cost": 18855,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "34_S2",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 153500,
+          "cost": 153500,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 6,
+          "iteration_counter": 6,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "35_S3",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1044180,
+          "cost": 1044180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "36_S4",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 92212,
+          "cost": 94263,
+          "feasible": true,
+          "gap_pct": 2.2242224439335443,
+          "transfers": 16,
+          "iteration_counter": 16,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 14,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "37_S5",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 116020,
+          "cost": 116020,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 7,
+          "iteration_counter": 7,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "38_Real1",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 12928429,
+          "cost": 12928429,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 95,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "39_Real2",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 13657053,
+          "cost": 13657053,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 112,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "40_Real3",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 12296587,
+          "cost": 12296587,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 17,
+          "iteration_counter": 17,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 87,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "41_Real4",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 14117586,
+          "cost": 14117586,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 112,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "42_Real5",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 14017419,
+          "cost": 14017419,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 19,
+          "iteration_counter": 19,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 112,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "43_P01",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 605,
+          "cost": 605,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "44_P02",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 2850,
+          "cost": 2850,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "45_P03",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 149,
+          "cost": 149,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "46_P04",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 450,
+          "cost": 450,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "47_P05",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 290,
+          "cost": 290,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "48_P06",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 49,
+          "cost": 49,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "49_P07",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 291,
+          "cost": 291,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "50_P08",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 10625,
+          "cost": 10625,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "51_P09",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 845,
+          "cost": 845,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 1,
+          "iteration_counter": 1,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "52_P10",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 212,
+          "cost": 212,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "53_P11",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 600,
+          "cost": 600,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "54_P12",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 180,
+          "cost": 180,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "55_P13",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 3210,
+          "cost": 3450,
+          "feasible": true,
+          "gap_pct": 7.4766355140186915,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "56_P14",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 175,
+          "cost": 175,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "57_P15",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 10830,
+          "cost": 10830,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "58_P16",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 325,
+          "cost": 355,
+          "feasible": true,
+          "gap_pct": 9.23076923076923,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "59_P17",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 475,
+          "cost": 475,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 3,
+          "iteration_counter": 3,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "60_P18",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 555,
+          "cost": 555,
+          "feasible": true,
+          "gap_pct": 0.0,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "61_P19",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1390,
+          "cost": 1450,
+          "feasible": true,
+          "gap_pct": 4.316546762589928,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "62_P20",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 3320,
+          "cost": 3500,
+          "feasible": true,
+          "gap_pct": 5.421686746987952,
+          "transfers": 2,
+          "iteration_counter": 2,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "63_S01",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 5067,
+          "cost": 5420,
+          "feasible": true,
+          "gap_pct": 6.966646931122953,
+          "transfers": 11,
+          "iteration_counter": 11,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 2,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "64_S02",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1080,
+          "cost": 1152,
+          "feasible": true,
+          "gap_pct": 6.666666666666667,
+          "transfers": 11,
+          "iteration_counter": 11,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 21,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "65_S03",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 885,
+          "cost": 1020,
+          "feasible": true,
+          "gap_pct": 15.254237288135593,
+          "transfers": 12,
+          "iteration_counter": 12,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 7,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "66_S04",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 3125,
+          "cost": 3285,
+          "feasible": true,
+          "gap_pct": 5.12,
+          "transfers": 5,
+          "iteration_counter": 5,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 6,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "67_S05",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 1586,
+          "cost": 1820,
+          "feasible": true,
+          "gap_pct": 14.754098360655737,
+          "transfers": 25,
+          "iteration_counter": 25,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 81,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "68_S06",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 4702,
+          "cost": 5389,
+          "feasible": true,
+          "gap_pct": 14.610803913228413,
+          "transfers": 37,
+          "iteration_counter": 37,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 73,
+          "supply_error": 0,
+          "demand_error": 0
+        },
+        {
+          "case": "69_S07",
+          "variant": "FI-SAM",
+          "iteration_limit": null,
+          "reference": 305,
+          "cost": 326,
+          "feasible": true,
+          "gap_pct": 6.885245901639344,
+          "transfers": 4,
+          "iteration_counter": 4,
+          "limit_hit": false,
+          "returncode": 0,
+          "fit_evaluations": 0,
+          "supply_error": 0,
+          "demand_error": 0
+        }
+      ]
+    }
+  },
+  "timing": {
+    "01_N01": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          28.654199219,
+          36.455175781,
+          31.467480469,
+          32.939453125,
+          31.246191406,
+          29.476464844,
+          29.557910156
+        ],
+        "median_us": 31.246191406,
+        "iqr_us": 3.4629882810000012
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          33.36328125,
+          28.813574219,
+          40.886816406,
+          31.075976562,
+          29.547949219,
+          36.393945313,
+          33.680957031
+        ],
+        "median_us": 33.36328125,
+        "iqr_us": 6.845996094000004
+      }
+    },
+    "02_N02": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          27.942578125,
+          28.381152344,
+          32.550976562,
+          36.529882812,
+          41.130371094,
+          41.03046875,
+          50.715625
+        ],
+        "median_us": 36.529882812,
+        "iqr_us": 12.749218749999997
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          81.120507812,
+          62.858203125,
+          42.96484375,
+          39.50234375,
+          38.86171875,
+          38.674804688,
+          38.886132813
+        ],
+        "median_us": 39.50234375,
+        "iqr_us": 23.996484375
+      }
+    },
+    "03_N03": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.1890625,
+          44.403320312,
+          42.830664062,
+          43.890625,
+          53.28203125,
+          63.993554688,
+          50.641015625
+        ],
+        "median_us": 44.403320312,
+        "iqr_us": 10.092968750000004
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          45.281445312,
+          53.631445312,
+          35.998632812,
+          34.840429687,
+          35.32421875,
+          35.984960937,
+          36.564648437
+        ],
+        "median_us": 35.998632812,
+        "iqr_us": 9.957226562000002
+      }
+    },
+    "04_N04": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          37.299707031,
+          33.0078125,
+          32.945703125,
+          32.884082031,
+          32.812890625,
+          33.656835937,
+          33.188867188
+        ],
+        "median_us": 33.0078125,
+        "iqr_us": 0.7727539059999984
+      },
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.498339844,
+          33.161035156,
+          33.880078125,
+          33.677148438,
+          32.900097656,
+          32.882324219,
+          32.597949219
+        ],
+        "median_us": 32.900097656,
+        "iqr_us": 1.079199219000003
+      }
+    },
+    "05_N05": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.102148437,
+          33.873144531,
+          32.545507812,
+          33.833300781,
+          40.973242187,
+          41.658789062,
+          47.965722656
+        ],
+        "median_us": 33.873144531,
+        "iqr_us": 9.11328125
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.096875,
+          40.620898438,
+          40.910351562,
+          40.925390625,
+          40.455078125,
+          39.563867188,
+          46.284960938
+        ],
+        "median_us": 40.910351562,
+        "iqr_us": 0.6417968749999972
+      }
+    },
+    "06_N06": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.019335938,
+          39.816015625,
+          39.94375,
+          41.727734375,
+          40.247460938,
+          40.657226562,
+          39.816210938
+        ],
+        "median_us": 40.019335938,
+        "iqr_us": 0.8410156240000006
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.420117187,
+          46.245507813,
+          41.643554688,
+          41.306640625,
+          44.734375,
+          42.747265625,
+          42.138085938
+        ],
+        "median_us": 42.138085938,
+        "iqr_us": 3.427734375
+      }
+    },
+    "07_N07": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.616015625,
+          48.437304688,
+          38.115039063,
+          41.04765625,
+          41.916992188,
+          50.837304688,
+          48.519726562
+        ],
+        "median_us": 41.916992188,
+        "iqr_us": 7.903710937
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.840429687,
+          59.516992188,
+          48.8578125,
+          47.698632813,
+          43.930078125,
+          34.698046875,
+          41.74375
+        ],
+        "median_us": 43.930078125,
+        "iqr_us": 7.114062500000003
+      }
+    },
+    "08_N09": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          33.556933594,
+          40.472753906,
+          39.139550781,
+          37.171972656,
+          35.630078125,
+          35.117285156,
+          36.353320313
+        ],
+        "median_us": 36.353320313,
+        "iqr_us": 4.022265624999996
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.261132813,
+          32.30234375,
+          30.37890625,
+          29.463671875,
+          29.534765625,
+          31.411914062,
+          31.285742187
+        ],
+        "median_us": 31.285742187,
+        "iqr_us": 2.767578125
+      }
+    },
+    "09_N10": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          29.015136719,
+          28.658886719,
+          28.254882812,
+          28.777734375,
+          29.290332031,
+          28.852539062,
+          29.448339844
+        ],
+        "median_us": 28.852539062,
+        "iqr_us": 0.6314453119999968
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          29.257714844,
+          28.508691406,
+          46.096289062,
+          45.031835937,
+          42.083203125,
+          55.362207031,
+          44.81171875
+        ],
+        "median_us": 44.81171875,
+        "iqr_us": 16.838574217999998
+      }
+    },
+    "10_N11": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.336328125,
+          40.08203125,
+          40.074804687,
+          40.623632812,
+          46.549023437,
+          40.01484375,
+          42.808203125
+        ],
+        "median_us": 40.623632812,
+        "iqr_us": 2.733398438000002
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          50.566796875,
+          43.24921875,
+          39.699609375,
+          38.425390625,
+          40.198046875,
+          41.196289062,
+          39.69296875
+        ],
+        "median_us": 40.198046875,
+        "iqr_us": 3.5562499999999986
+      }
+    },
+    "11_N12": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.908789062,
+          39.269921875,
+          43.620117188,
+          39.815234375,
+          39.72421875,
+          39.568554687,
+          37.023828125
+        ],
+        "median_us": 39.72421875,
+        "iqr_us": 0.6388671869999953
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          47.64609375,
+          41.476953125,
+          41.189648437,
+          40.746875,
+          41.040429688,
+          43.104296875,
+          40.424804688
+        ],
+        "median_us": 41.189648437,
+        "iqr_us": 2.357421875
+      }
+    },
+    "12_N13": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.614257812,
+          74.109179688,
+          49.36484375,
+          42.248046875,
+          37.171289063,
+          39.552929687,
+          37.848046875
+        ],
+        "median_us": 42.248046875,
+        "iqr_us": 11.516796874999997
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.087109375,
+          40.330664062,
+          38.424804688,
+          47.242382812,
+          39.9453125,
+          43.462304688,
+          50.550976562
+        ],
+        "median_us": 40.330664062,
+        "iqr_us": 8.155273437000005
+      }
+    },
+    "13_N14": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.84453125,
+          47.165234375,
+          45.476171875,
+          53.280664063,
+          41.488085938,
+          35.775,
+          26.559765625
+        ],
+        "median_us": 41.84453125,
+        "iqr_us": 11.390234374999999
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          28.885742188,
+          42.02421875,
+          30.162597656,
+          27.87734375,
+          28.953613281,
+          29.466992188,
+          28.48984375
+        ],
+        "median_us": 28.953613281,
+        "iqr_us": 1.6727539060000005
+      }
+    },
+    "14_N15": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          30.09296875,
+          29.414941406,
+          39.256347656,
+          34.134960937,
+          30.539257813,
+          29.859277344,
+          29.925683594
+        ],
+        "median_us": 30.09296875,
+        "iqr_us": 4.275683593000004
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          30.516796875,
+          28.944140625,
+          28.12109375,
+          28.046484375,
+          28.716601562,
+          27.78828125,
+          27.805859375
+        ],
+        "median_us": 28.12109375,
+        "iqr_us": 1.1382812499999986
+      }
+    },
+    "15_N16": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.294824219,
+          33.564550781,
+          37.804199219,
+          36.095117188,
+          33.805566406,
+          33.896191406,
+          29.3234375
+        ],
+        "median_us": 33.805566406,
+        "iqr_us": 3.8002929690000045
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          40.296777344,
+          40.894238281,
+          39.470507813,
+          44.658398437,
+          38.452441406,
+          39.274121094,
+          40.849511719
+        ],
+        "median_us": 40.296777344,
+        "iqr_us": 1.6201171869999982
+      }
+    },
+    "16_N17": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.906835937,
+          40.095898437,
+          43.30078125,
+          45.700390625,
+          46.247070312,
+          47.865820312,
+          44.079882813
+        ],
+        "median_us": 44.079882813,
+        "iqr_us": 6.151171874999996
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.415039062,
+          39.853710937,
+          39.399804688,
+          41.34765625,
+          43.475585938,
+          38.765625,
+          44.258203125
+        ],
+        "median_us": 40.415039062,
+        "iqr_us": 4.075781249999999
+      }
+    },
+    "17_N18": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          58.705273437,
+          62.459960938,
+          53.029101563,
+          44.077929688,
+          45.854296875,
+          45.118554688,
+          49.79609375
+        ],
+        "median_us": 49.79609375,
+        "iqr_us": 13.586718749
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          48.682421875,
+          51.015234375,
+          46.348632812,
+          43.184765625,
+          44.182617188,
+          42.298828125,
+          44.239453125
+        ],
+        "median_us": 44.239453125,
+        "iqr_us": 5.497656250000006
+      }
+    },
+    "18_N21": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.177539063,
+          48.184179687,
+          44.74296875,
+          50.001171875,
+          48.304101563,
+          42.103515625,
+          43.05703125
+        ],
+        "median_us": 44.74296875,
+        "iqr_us": 5.247070313000002
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.777734375,
+          46.302734375,
+          43.2625,
+          42.464257813,
+          43.443945312,
+          41.68515625,
+          43.566601562
+        ],
+        "median_us": 43.2625,
+        "iqr_us": 1.1023437489999992
+      }
+    },
+    "19_N22": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          71.1203125,
+          72.210742188,
+          52.951757812,
+          41.591796875,
+          40.1109375,
+          43.061523438,
+          42.913085938
+        ],
+        "median_us": 43.061523438,
+        "iqr_us": 29.528515624999997
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          63.442773438,
+          56.229296875,
+          43.5859375,
+          51.572851562,
+          33.259765625,
+          34.553125,
+          35.479101562
+        ],
+        "median_us": 43.5859375,
+        "iqr_us": 21.676171875
+      }
+    },
+    "20_N23": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          63.636523438,
+          56.9203125,
+          40.394140625,
+          47.035546875,
+          40.08515625,
+          37.711328125,
+          32.367382812
+        ],
+        "median_us": 40.394140625,
+        "iqr_us": 19.208984375
+      },
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          40.251855469,
+          39.672460937,
+          39.472167969,
+          39.329296875,
+          40.698339844,
+          41.963671875,
+          39.557226562
+        ],
+        "median_us": 39.672460937,
+        "iqr_us": 1.2261718750000057
+      }
+    },
+    "21_N24": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          46.18671875,
+          44.60546875,
+          46.79921875,
+          42.6859375,
+          44.45625,
+          41.940625,
+          39.306640625
+        ],
+        "median_us": 44.45625,
+        "iqr_us": 4.24609375
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.874414063,
+          40.246875,
+          46.5796875,
+          44.037109375,
+          47.757617188,
+          40.439257813,
+          40.038671875
+        ],
+        "median_us": 40.439257813,
+        "iqr_us": 6.541015625
+      }
+    },
+    "22_N25": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.111328125,
+          39.625,
+          41.565820313,
+          41.836132812,
+          40.40859375,
+          40.23515625,
+          40.532421875
+        ],
+        "median_us": 40.532421875,
+        "iqr_us": 1.3306640630000004
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          47.381640625,
+          52.37578125,
+          49.86484375,
+          48.728125,
+          43.258984375,
+          49.08828125,
+          44.239648438
+        ],
+        "median_us": 48.728125,
+        "iqr_us": 5.625195311999995
+      }
+    },
+    "23_N26": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          46.851171875,
+          52.219921875,
+          64.635546875,
+          45.48828125,
+          47.644140625,
+          46.923632813,
+          55.002539062
+        ],
+        "median_us": 47.644140625,
+        "iqr_us": 8.151367186999998
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          51.318554687,
+          47.82890625,
+          53.791796875,
+          52.549414062,
+          49.93359375,
+          56.113671875,
+          50.0875
+        ],
+        "median_us": 51.318554687,
+        "iqr_us": 3.858203125000003
+      }
+    },
+    "24_N27": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          51.423046875,
+          50.484960937,
+          51.98203125,
+          52.375976562,
+          49.893554688,
+          52.811328125,
+          48.815234375
+        ],
+        "median_us": 51.423046875,
+        "iqr_us": 2.4824218739999964
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          56.01328125,
+          41.160351562,
+          40.445117188,
+          37.470703125,
+          38.019921875,
+          39.234570312,
+          37.209960938
+        ],
+        "median_us": 39.234570312,
+        "iqr_us": 3.6896484370000024
+      }
+    },
+    "25_N28": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          37.121777344,
+          37.783007813,
+          36.609179688,
+          37.112109375,
+          36.474902344,
+          38.594335937,
+          37.986816406
+        ],
+        "median_us": 37.121777344,
+        "iqr_us": 1.377636718000005
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          41.081640625,
+          39.898339844,
+          41.051367187,
+          38.425976562,
+          43.653417969,
+          41.665820313,
+          42.568554687
+        ],
+        "median_us": 41.081640625,
+        "iqr_us": 2.6702148430000037
+      }
+    },
+    "26_N29": {
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          60.379296875,
+          39.7875,
+          32.916015625,
+          49.452734375,
+          41.862109375,
+          51.5171875,
+          51.942578125
+        ],
+        "median_us": 49.452734375,
+        "iqr_us": 12.155078124999996
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.770507812,
+          38.405664063,
+          35.75859375,
+          36.088085937,
+          40.495507813,
+          38.419921875,
+          35.837304688
+        ],
+        "median_us": 38.405664063,
+        "iqr_us": 4.658203125
+      }
+    },
+    "27_N30": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          37.861328125,
+          35.15390625,
+          33.999511719,
+          33.11640625,
+          33.824121094,
+          33.327050781,
+          32.009277344
+        ],
+        "median_us": 33.824121094,
+        "iqr_us": 2.0375000000000014
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          33.466601563,
+          47.126757813,
+          38.10078125,
+          34.658984375,
+          39.506054687,
+          34.165234375,
+          33.525976562
+        ],
+        "median_us": 34.658984375,
+        "iqr_us": 5.980078125000006
+      }
+    },
+    "28_N31": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          43.302832031,
+          33.494238281,
+          32.508789062,
+          32.305078125,
+          32.238769531,
+          31.514355469,
+          32.984179688
+        ],
+        "median_us": 32.508789062,
+        "iqr_us": 1.2554687499999986
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          48.417382813,
+          46.162304687,
+          39.918554687,
+          41.1765625,
+          43.99375,
+          43.366992188,
+          38.514257812
+        ],
+        "median_us": 43.366992188,
+        "iqr_us": 6.243750000000006
+      }
+    },
+    "29_N32": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.271875,
+          40.52421875,
+          43.274023437,
+          42.280859375,
+          37.770507812,
+          36.386328125,
+          37.473242187
+        ],
+        "median_us": 40.52421875,
+        "iqr_us": 5.798632813000005
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.2328125,
+          42.837304688,
+          39.441796875,
+          41.7015625,
+          37.670898438,
+          40.055078125,
+          40.9125
+        ],
+        "median_us": 40.9125,
+        "iqr_us": 2.259765625
+      }
+    },
+    "30_N33": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          36.813476562,
+          32.537304687,
+          31.910742187,
+          31.264257812,
+          31.949414063,
+          30.854296875,
+          34.378710938
+        ],
+        "median_us": 31.949414063,
+        "iqr_us": 3.1144531259999972
+      },
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          34.920507812,
+          34.507910156,
+          35.974121094,
+          40.246875,
+          37.905371094,
+          39.311132812,
+          34.595410156
+        ],
+        "median_us": 35.974121094,
+        "iqr_us": 4.715722655999997
+      }
+    },
+    "31_N34": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          33.715234375,
+          36.753027344,
+          35.781152344,
+          35.3203125,
+          43.386816406,
+          40.435253906,
+          35.35
+        ],
+        "median_us": 35.781152344,
+        "iqr_us": 5.114941406
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          34.480273438,
+          33.904003906,
+          40.361425781,
+          42.982226563,
+          47.776074219,
+          43.805859375,
+          38.847167969
+        ],
+        "median_us": 40.361425781,
+        "iqr_us": 9.325585937
+      }
+    },
+    "32_N35": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          33.218554688,
+          34.684667969,
+          34.49375,
+          32.765917969,
+          33.338671875,
+          32.763378906,
+          33.107519531
+        ],
+        "median_us": 33.218554688,
+        "iqr_us": 1.7278320309999984
+      },
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.79296875,
+          32.329785156,
+          32.761230469,
+          33.11484375,
+          32.43125,
+          33.018066406,
+          34.28984375
+        ],
+        "median_us": 32.79296875,
+        "iqr_us": 0.68359375
+      }
+    },
+    "33_S1": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          35.207519531,
+          35.949511719,
+          34.842578125,
+          34.549121094,
+          43.826757812,
+          38.659082031,
+          39.819921875
+        ],
+        "median_us": 35.949511719,
+        "iqr_us": 4.977343749999996
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          50.383984375,
+          49.335351563,
+          43.472070313,
+          45.066992187,
+          44.721875,
+          42.461132812,
+          43.617578125
+        ],
+        "median_us": 44.721875,
+        "iqr_us": 5.86328125
+      }
+    },
+    "34_S2": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.231054687,
+          49.702734375,
+          43.752929688,
+          41.738085938,
+          42.784960938,
+          43.790625,
+          41.896679687
+        ],
+        "median_us": 43.231054687,
+        "iqr_us": 1.8939453129999961
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.7015625,
+          47.585742188,
+          48.900195313,
+          48.142578125,
+          47.63203125,
+          49.847851562,
+          50.13125
+        ],
+        "median_us": 48.142578125,
+        "iqr_us": 2.262109374000005
+      }
+    },
+    "35_S3": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          86.427148437,
+          71.614648437,
+          67.236328125,
+          63.985742188,
+          62.547070312,
+          63.2484375,
+          69.609179688
+        ],
+        "median_us": 67.236328125,
+        "iqr_us": 8.366210936999998
+      },
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          82.715625,
+          95.4875,
+          80.019140625,
+          108.738671875,
+          75.41171875,
+          81.65546875,
+          91.112109375
+        ],
+        "median_us": 82.715625,
+        "iqr_us": 15.468359374999991
+      }
+    },
+    "36_S4": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          64.917578125,
+          67.995507812,
+          68.831835938,
+          65.722070312,
+          73.370117188,
+          67.27734375,
+          60.745117188
+        ],
+        "median_us": 67.27734375,
+        "iqr_us": 3.914257812999992
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          104.0265625,
+          118.162109375,
+          89.540429687,
+          74.59609375,
+          54.983007812,
+          54.459960938,
+          55.748046875
+        ],
+        "median_us": 74.59609375,
+        "iqr_us": 49.043554688
+      }
+    },
+    "37_S5": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          54.6640625,
+          55.733398438,
+          97.954296875,
+          60.011132813,
+          72.366015625,
+          54.876367188,
+          50.250976562
+        ],
+        "median_us": 55.733398438,
+        "iqr_us": 17.701953125000003
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          53.983203125,
+          56.851367188,
+          68.912695313,
+          79.111132813,
+          68.816601562,
+          67.295117187,
+          61.4984375
+        ],
+        "median_us": 67.295117187,
+        "iqr_us": 12.061328125000003
+      }
+    },
+    "38_Real1": {
+      "FI-SAM": {
+        "batch": 128,
+        "samples_us": [
+          137.51484375,
+          120.446875,
+          94.05625,
+          74.721875,
+          84.85078125,
+          76.4171875,
+          82.66953125
+        ],
+        "median_us": 84.85078125,
+        "iqr_us": 44.02968750000001
+      },
+      "SAM": {
+        "batch": 256,
+        "samples_us": [
+          73.2484375,
+          79.4296875,
+          75.66484375,
+          73.92734375,
+          75.983203125,
+          73.952734375,
+          91.06328125
+        ],
+        "median_us": 75.66484375,
+        "iqr_us": 5.502343749999994
+      }
+    },
+    "39_Real2": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          81.334570313,
+          74.819726562,
+          71.683398438,
+          96.742773438,
+          99.2140625,
+          95.666992188,
+          81.29296875
+        ],
+        "median_us": 81.334570313,
+        "iqr_us": 21.923046876
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          77.445898438,
+          92.766210938,
+          98.757617188,
+          75.881835938,
+          89.99296875,
+          95.858789062,
+          79.191601562
+        ],
+        "median_us": 89.99296875,
+        "iqr_us": 18.412890624
+      }
+    },
+    "40_Real3": {
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          76.413671875,
+          79.6984375,
+          137.61875,
+          89.3328125,
+          97.946875,
+          89.828125,
+          91.63671875
+        ],
+        "median_us": 89.828125,
+        "iqr_us": 18.24843750000001
+      },
+      "SAM": {
+        "batch": 256,
+        "samples_us": [
+          116.427734375,
+          83.5328125,
+          106.0953125,
+          93.173828125,
+          83.12421875,
+          80.412109375,
+          104.076171875
+        ],
+        "median_us": 93.173828125,
+        "iqr_us": 22.97109375000001
+      }
+    },
+    "41_Real4": {
+      "SAM": {
+        "batch": 256,
+        "samples_us": [
+          104.311328125,
+          89.866015625,
+          90.069921875,
+          83.9,
+          81.117578125,
+          99.564453125,
+          103.912109375
+        ],
+        "median_us": 90.069921875,
+        "iqr_us": 20.012109374999994
+      },
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          98.89375,
+          106.68515625,
+          103.981640625,
+          100.219140625,
+          103.7296875,
+          134.58984375,
+          105.33359375
+        ],
+        "median_us": 103.981640625,
+        "iqr_us": 6.466015625000011
+      }
+    },
+    "42_Real5": {
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          124.591015625,
+          139.057421875,
+          108.8609375,
+          104.32734375,
+          90.95703125,
+          80.71953125,
+          84.01640625
+        ],
+        "median_us": 104.32734375,
+        "iqr_us": 40.574609374999994
+      },
+      "SAM": {
+        "batch": 256,
+        "samples_us": [
+          86.749609375,
+          95.0015625,
+          85.8015625,
+          80.215234375,
+          76.871875,
+          95.88125,
+          78.719140625
+        ],
+        "median_us": 85.8015625,
+        "iqr_us": 16.28242187500001
+      }
+    },
+    "43_P01": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.053027344,
+          31.213378906,
+          28.029003906,
+          28.598632812,
+          31.996191406,
+          28.882226563,
+          29.0015625
+        ],
+        "median_us": 29.0015625,
+        "iqr_us": 3.3975585939999995
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          33.051464844,
+          29.320507813,
+          34.611523437,
+          29.733398438,
+          29.299902344,
+          29.582714844,
+          29.624121094
+        ],
+        "median_us": 29.624121094,
+        "iqr_us": 3.7309570310000026
+      }
+    },
+    "44_P02": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          34.135351562,
+          42.011523438,
+          38.210644531,
+          40.391796875,
+          39.823242188,
+          44.01640625,
+          43.140136719
+        ],
+        "median_us": 40.391796875,
+        "iqr_us": 4.9294921879999976
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.897460938,
+          40.953515625,
+          38.532421875,
+          40.953515625,
+          39.187304688,
+          39.166796875,
+          38.783007813
+        ],
+        "median_us": 39.187304688,
+        "iqr_us": 2.170507812000004
+      }
+    },
+    "45_P03": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          48.7296875,
+          47.934765625,
+          38.093554688,
+          44.611523437,
+          41.651953125,
+          43.55546875,
+          43.132617188
+        ],
+        "median_us": 43.55546875,
+        "iqr_us": 6.282812499999999
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          51.833203125,
+          47.954296875,
+          49.179296875,
+          50.005078125,
+          47.895898438,
+          38.7078125,
+          38.293554687
+        ],
+        "median_us": 47.954296875,
+        "iqr_us": 11.297265624999994
+      }
+    },
+    "46_P04": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.881835938,
+          44.011132813,
+          47.365234375,
+          42.33125,
+          43.653320312,
+          39.474609375,
+          45.548632813
+        ],
+        "median_us": 43.653320312,
+        "iqr_us": 3.2173828130000004
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.021484375,
+          44.952929688,
+          40.503125,
+          41.708007812,
+          60.925,
+          48.245507813,
+          42.651367188
+        ],
+        "median_us": 42.651367188,
+        "iqr_us": 6.537500001000005
+      }
+    },
+    "47_P05": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.44140625,
+          55.27578125,
+          47.846484375,
+          40.003320313,
+          47.264648438,
+          52.826171875,
+          41.729882813
+        ],
+        "median_us": 47.264648438,
+        "iqr_us": 11.096289061999997
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          50.461523437,
+          40.501367188,
+          39.184375,
+          40.38203125,
+          42.353320313,
+          40.354296875,
+          39.722460938
+        ],
+        "median_us": 40.38203125,
+        "iqr_us": 2.630859375
+      }
+    },
+    "48_P06": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          52.594335937,
+          50.99453125,
+          41.957617187,
+          40.711132812,
+          42.355859375,
+          39.584570312,
+          40.544335938
+        ],
+        "median_us": 41.957617187,
+        "iqr_us": 10.450195311999998
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.905273438,
+          43.1671875,
+          40.25078125,
+          39.087304688,
+          39.941210938,
+          39.406640625,
+          41.899023437
+        ],
+        "median_us": 39.941210938,
+        "iqr_us": 2.4923828119999953
+      }
+    },
+    "49_P07": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          38.340234375,
+          40.315527344,
+          37.988574219,
+          41.146875,
+          39.005664063,
+          38.202441406,
+          48.946386719
+        ],
+        "median_us": 39.005664063,
+        "iqr_us": 2.944433594000003
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.036328125,
+          38.774414062,
+          39.3984375,
+          38.075,
+          38.626757813,
+          39.044335938,
+          37.868164062
+        ],
+        "median_us": 38.774414062,
+        "iqr_us": 1.3234374999999972
+      }
+    },
+    "50_P08": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          47.54453125,
+          47.46171875,
+          46.931640625,
+          48.101171875,
+          39.862695313,
+          42.36015625,
+          54.7640625
+        ],
+        "median_us": 47.46171875,
+        "iqr_us": 5.741015624999996
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          42.237304688,
+          43.244921875,
+          42.074023438,
+          42.435742187,
+          57.179296875,
+          44.948046875,
+          42.041992188
+        ],
+        "median_us": 42.435742187,
+        "iqr_us": 2.8740234370000053
+      }
+    },
+    "51_P09": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.201953125,
+          39.754492187,
+          39.676171875,
+          40.178125,
+          45.989257812,
+          41.878710938,
+          37.875976562
+        ],
+        "median_us": 39.754492187,
+        "iqr_us": 2.6767578129999947
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          41.701171875,
+          40.071191406,
+          38.521582031,
+          40.536328125,
+          48.224902344,
+          38.389160156,
+          42.983789063
+        ],
+        "median_us": 40.536328125,
+        "iqr_us": 4.462207032000002
+      }
+    },
+    "52_P10": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.026757813,
+          45.049023437,
+          42.233203125,
+          58.225390625,
+          43.650195313,
+          42.620507813,
+          45.051953125
+        ],
+        "median_us": 43.650195313,
+        "iqr_us": 2.431445311999994
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          50.192578125,
+          51.452148438,
+          43.381054687,
+          41.90546875,
+          46.217578125,
+          46.122851563,
+          42.971484375
+        ],
+        "median_us": 46.122851563,
+        "iqr_us": 7.221093749999994
+      }
+    },
+    "53_P11": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.218164063,
+          40.516796875,
+          38.498046875,
+          38.376757813,
+          38.136523438,
+          49.01328125,
+          41.191601562
+        ],
+        "median_us": 39.218164063,
+        "iqr_us": 2.814843749000005
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          38.023339844,
+          43.07578125,
+          43.651367188,
+          38.015332031,
+          40.299414062,
+          38.382128906,
+          38.147753906
+        ],
+        "median_us": 38.382128906,
+        "iqr_us": 5.052441406
+      }
+    },
+    "54_P12": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.518554688,
+          39.853320313,
+          39.227734375,
+          39.65234375,
+          39.158984375,
+          39.464257813,
+          43.502734375
+        ],
+        "median_us": 39.65234375,
+        "iqr_us": 2.2908203130000047
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          54.832617187,
+          43.738085938,
+          44.965429687,
+          43.679101563,
+          42.209375,
+          40.996484375,
+          38.912109375
+        ],
+        "median_us": 43.679101563,
+        "iqr_us": 3.9689453119999953
+      }
+    },
+    "55_P13": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          41.251464844,
+          39.234960937,
+          39.04453125,
+          43.319921875,
+          39.36171875,
+          40.89296875,
+          40.689160156
+        ],
+        "median_us": 40.689160156,
+        "iqr_us": 2.0165039070000006
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.708398438,
+          41.372070312,
+          40.510742188,
+          42.796289063,
+          39.097070313,
+          40.030078125,
+          52.464648438
+        ],
+        "median_us": 40.708398438,
+        "iqr_us": 2.7662109380000004
+      }
+    },
+    "56_P14": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          40.288085938,
+          40.118164062,
+          39.257421875,
+          42.822265625,
+          49.551171875,
+          53.173828125,
+          46.656835937
+        ],
+        "median_us": 42.822265625,
+        "iqr_us": 9.433007813000003
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.286328125,
+          47.526953125,
+          44.434570312,
+          42.048046875,
+          39.622460938,
+          41.675390625,
+          44.685742187
+        ],
+        "median_us": 42.048046875,
+        "iqr_us": 3.3994140620000053
+      }
+    },
+    "57_P15": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          44.3203125,
+          44.91640625,
+          41.194921875,
+          50.81640625,
+          41.596875,
+          41.147070312,
+          39.704296875
+        ],
+        "median_us": 41.596875,
+        "iqr_us": 3.7693359380000047
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          41.531054688,
+          46.337890625,
+          41.216796875,
+          41.559960938,
+          40.383398437,
+          40.216015625,
+          50.712304688
+        ],
+        "median_us": 41.531054688,
+        "iqr_us": 5.954492188000003
+      }
+    },
+    "58_P16": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          36.541796875,
+          32.666308594,
+          32.547167969,
+          32.509082031,
+          31.949804687,
+          31.890527344,
+          44.393164062
+        ],
+        "median_us": 32.547167969,
+        "iqr_us": 4.5919921880000025
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          39.519140625,
+          33.7890625,
+          31.224609375,
+          32.22890625,
+          32.639257812,
+          31.052929688,
+          31.085742187
+        ],
+        "median_us": 32.22890625,
+        "iqr_us": 2.703320312999999
+      }
+    },
+    "59_P17": {
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          31.062109375,
+          33.703710937,
+          31.570605469,
+          39.407910156,
+          37.886328125,
+          30.418554687,
+          30.3859375
+        ],
+        "median_us": 31.570605469,
+        "iqr_us": 7.467773437999998
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          30.895703125,
+          31.524609375,
+          31.048242188,
+          31.222753906,
+          47.019433594,
+          37.525585937,
+          36.32734375
+        ],
+        "median_us": 31.524609375,
+        "iqr_us": 6.477343749000003
+      }
+    },
+    "60_P18": {
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          39.4546875,
+          33.268847656,
+          33.354199219,
+          32.240722656,
+          42.684179687,
+          41.188769531,
+          33.56015625
+        ],
+        "median_us": 33.56015625,
+        "iqr_us": 7.919921875
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          36.306640625,
+          32.045898438,
+          30.715625,
+          32.928320312,
+          30.683007813,
+          31.3390625,
+          30.711132813
+        ],
+        "median_us": 31.3390625,
+        "iqr_us": 2.217187498999998
+      }
+    },
+    "61_P19": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          33.191601562,
+          35.388671875,
+          51.780664063,
+          33.469140625,
+          37.637890625,
+          39.079492188,
+          37.902148438
+        ],
+        "median_us": 37.637890625,
+        "iqr_us": 5.610351563000002
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          34.952246094,
+          32.6296875,
+          35.132324219,
+          38.380078125,
+          43.497265625,
+          38.536621094,
+          45.303710938
+        ],
+        "median_us": 38.380078125,
+        "iqr_us": 8.545019530999994
+      }
+    },
+    "62_P20": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          45.34140625,
+          40.354882813,
+          42.018554688,
+          43.010546875,
+          38.653125,
+          40.969140625,
+          77.466992187
+        ],
+        "median_us": 42.018554688,
+        "iqr_us": 4.986523436999995
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          43.304882812,
+          54.785351562,
+          43.378710938,
+          39.772265625,
+          42.386523438,
+          41.454101562,
+          42.766210937
+        ],
+        "median_us": 42.766210937,
+        "iqr_us": 1.9246093759999994
+      }
+    },
+    "63_S01": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          71.255664063,
+          60.671679688,
+          58.32421875,
+          62.297460937,
+          66.619726563,
+          80.8359375,
+          66.528515625
+        ],
+        "median_us": 66.528515625,
+        "iqr_us": 10.583984375
+      },
+      "FI-SAM": {
+        "batch": 256,
+        "samples_us": [
+          73.640625,
+          74.27890625,
+          72.02265625,
+          52.084765625,
+          68.7453125,
+          47.45078125,
+          46.32109375
+        ],
+        "median_us": 68.7453125,
+        "iqr_us": 26.18984375
+      }
+    },
+    "64_S02": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          66.902929688,
+          71.26171875,
+          65.172460938,
+          82.082421875,
+          71.024804687,
+          67.140039062,
+          65.631445313
+        ],
+        "median_us": 67.140039062,
+        "iqr_us": 5.630273437
+      },
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          69.00078125,
+          72.398828125,
+          66.637695312,
+          98.980664062,
+          81.758007812,
+          71.932421875,
+          77.993164062
+        ],
+        "median_us": 72.398828125,
+        "iqr_us": 12.757226562
+      }
+    },
+    "65_S03": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          72.677539063,
+          75.476757812,
+          60.926367187,
+          51.287109375,
+          54.253515625,
+          61.00390625,
+          50.480273438
+        ],
+        "median_us": 60.926367187,
+        "iqr_us": 21.390429687999998
+      },
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          54.735351562,
+          54.515039063,
+          56.01171875,
+          61.384375,
+          61.316796875,
+          73.02734375,
+          56.458984375
+        ],
+        "median_us": 56.458984375,
+        "iqr_us": 6.649023438
+      }
+    },
+    "66_S04": {
+      "FI-SAM": {
+        "batch": 512,
+        "samples_us": [
+          51.384179688,
+          39.115234375,
+          38.866601563,
+          43.15390625,
+          36.020117187,
+          31.839648437,
+          43.233789063
+        ],
+        "median_us": 39.115234375,
+        "iqr_us": 7.2136718760000065
+      },
+      "SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.80078125,
+          31.482910156,
+          38.51640625,
+          34.223144531,
+          45.826464844,
+          46.938085937,
+          50.109863281
+        ],
+        "median_us": 38.51640625,
+        "iqr_us": 14.137304686999997
+      }
+    },
+    "67_S05": {
+      "SAM": {
+        "batch": 256,
+        "samples_us": [
+          177.834375,
+          158.24609375,
+          148.088671875,
+          167.159375,
+          152.42890625,
+          160.243359375,
+          177.296484375
+        ],
+        "median_us": 160.243359375,
+        "iqr_us": 24.867578124999994
+      },
+      "FI-SAM": {
+        "batch": 128,
+        "samples_us": [
+          147.20859375,
+          167.09453125,
+          155.8609375,
+          144.021875,
+          141.81328125,
+          156.92734375,
+          145.34296875
+        ],
+        "median_us": 147.20859375,
+        "iqr_us": 12.905468750000011
+      }
+    },
+    "68_S06": {
+      "FI-SAM": {
+        "batch": 64,
+        "samples_us": [
+          308.3765625,
+          312.334375,
+          334.996875,
+          326.8375,
+          371.2828125,
+          322.5890625,
+          315.2578125
+        ],
+        "median_us": 322.5890625,
+        "iqr_us": 22.662499999999966
+      },
+      "SAM": {
+        "batch": 128,
+        "samples_us": [
+          296.15625,
+          309.36640625,
+          316.84453125,
+          319.56875,
+          297.95625,
+          297.8609375,
+          322.984375
+        ],
+        "median_us": 309.36640625,
+        "iqr_us": 21.707812500000045
+      }
+    },
+    "69_S07": {
+      "SAM": {
+        "batch": 512,
+        "samples_us": [
+          61.36015625,
+          31.678710938,
+          28.155273438,
+          42.600585938,
+          29.854296875,
+          29.656640625,
+          37.895507812
+        ],
+        "median_us": 31.678710938,
+        "iqr_us": 12.943945313
+      },
+      "FI-SAM": {
+        "batch": 1024,
+        "samples_us": [
+          32.024121094,
+          28.048828125,
+          28.016210937,
+          28.108105469,
+          33.019628906,
+          28.600195312,
+          28.545996094
+        ],
+        "median_us": 28.545996094,
+        "iqr_us": 3.9752929690000016
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+
+80 [300]	80 [0]	20 [100]	100 [0]	20 [0]	| 400	Total alloc : 400	
+110 [150]	40 [550]	100 [0]	90 [0]	40 [0]	| 700	Total alloc : 700	
+50 [350]	60 [0]	80 [0]	110 [0]	100 [0]	| 350	Total alloc : 350	
+100 [0]	110 [0]	60 [0]	70 [450]	20 [450]	| 900	Total alloc : 900	
+80 [0]	20 [0]	20 [500]	60 [350]	40 [0]	| 850	Total alloc : 850	
+
+Jumlah iterasi yang dijalankan: 6
+Total Alokasi tabel adalah: 153500

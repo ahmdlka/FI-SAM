@@ -1,0 +1,71 @@
+average_cost[0] = 16.00
+average_cost[1] = 13.67
+average_cost[2] = 17.00
+average_cost_multiply_supply[0] = 208.00
+average_cost_multiply_supply[1] = 273.33
+average_cost_multiply_supply[2] = 85.00
+Jumlah Supply: 3
+Jumlah Demand: 3
+
+
+(Tabel Awal)
+--------------------------------------------
+13	21	14	| 13
+8	12	21	| 20
+15	17	19	| 5
+_______	_______	_______	
+12	15	11	
+--------------------------------------------
+
+13	8	15	lokasi min : 1,0
+21	12	17	lokasi min : 1,1
+14	21	19	lokasi min : 0,2
+ITER 0
+
+
+13 [0]	21 [0]	14 [11]	| 13	T. Alloc : 11	AC * S = 208.00	
+8 [12]	12 [15]	21 [0]	| 20	T. Alloc : 27	AC * S = 273.33	Status = ER	
+15 [0]	17 [0]	19 [0]	| 5	T. Alloc : 0	AC * S = 85.00	
+
+FLC[0] = 1, SLC[0] = 0
+FLC[1] = 1, SLC[1] = 2
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 5
+diff[1] = 5
+FI-SAM kolom 0: SDiff=5, transfer=2, fit_score=0
+FI-SAM kolom 1: SDiff=5, transfer=5, fit_score=0
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 2 dulu - elselebihkecil
+ITER 1
+
+
+13 [0]	21 [0]	14 [11]	| 13	T. Alloc : 11	AC * S = 208.00	
+8 [12]	12 [10]	21 [0]	| 20	T. Alloc : 22	AC * S = 273.33	Status = ER	
+15 [0]	17 [5]	19 [0]	| 5	T. Alloc : 5	AC * S = 85.00	Status = SATISFY
+
+FLC[0] = 1, SLC[0] = 0
+FLC[1] = 1, SLC[1] = 0
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 5
+diff[1] = 9
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 0 dulu - elselebihkecil
+ITER 2
+
+
+13 [2]	21 [0]	14 [11]	| 13	T. Alloc : 13	AC * S = 208.00	Status = SATISFY
+8 [10]	12 [10]	21 [0]	| 20	T. Alloc : 20	AC * S = 273.33	Status = SATISFY
+15 [0]	17 [5]	19 [0]	| 5	T. Alloc : 5	AC * S = 85.00	Status = SATISFY
+
+Sudah habis
+
+13 [2]	21 [0]	14 [11]	| 13	Total alloc : 13	
+8 [10]	12 [10]	21 [0]	| 20	Total alloc : 20	
+15 [0]	17 [5]	19 [0]	| 5	Total alloc : 5	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 465

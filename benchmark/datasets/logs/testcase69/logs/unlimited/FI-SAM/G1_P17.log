@@ -1,0 +1,8 @@
+
+
+4 [0]	2 [50]	1 [0]	| 50	Total alloc : 50	
+3 [40]	8 [0]	4 [30]	| 70	Total alloc : 70	
+6 [0]	5 [15]	2 [30]	| 45	Total alloc : 45	
+
+Jumlah iterasi yang dijalankan: 3
+Total Alokasi tabel adalah: 475

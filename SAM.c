@@ -182,10 +182,8 @@ int main(){
 			}
 			itertemp++;
 
-			if(itertemp >= 20){ // Batas iterasi untuk menghindari infinite loop
-				printf("ITER LEWATTTTT");
-				break;
-			} else if (jumlah_ER>0){ //Jika baris ada yang ER
+			/* MODIFIKASI: tanpa batas iterasi; ulangi sampai tidak ada ER. */
+			if (jumlah_ER>0){ //Jika baris ada yang ER
 				for(q=0; q<jumlah_demand; q++){
 					konflik[q]=0;
 
@@ -244,7 +242,9 @@ int main(){
 								if(temp > cost[p][q]){
 										temp = cost[p][q];
 										slc[q] = p;
-								} else if(temp == cost[p][q] && average_cost_multiply_supply[q] < average_cost_multiply_supply[p]){
+								/* KOREKSI SLC: bandingkan AS baris SLC terpilih,
+								 * bukan indeks kolom q yang dapat melewati batas baris. */
+								} else if(temp == cost[p][q] && average_cost_multiply_supply[slc[q]] < average_cost_multiply_supply[p]){
 										slc[q] = p;
 								}
 							}

@@ -1,0 +1,95 @@
+average_cost[0] = 4.75
+average_cost[1] = 6.50
+average_cost[2] = 8.25
+average_cost_multiply_supply[0] = 332.50
+average_cost_multiply_supply[1] = 357.50
+average_cost_multiply_supply[2] = 742.50
+Jumlah Supply: 3
+Jumlah Demand: 4
+
+
+(Tabel Awal)
+--------------------------------------------
+6	1	9	3	| 70
+11	5	2	8	| 55
+10	12	4	7	| 90
+_______	_______	_______	_______	
+85	35	50	45	
+--------------------------------------------
+
+6	11	10	lokasi min : 0,0
+1	5	12	lokasi min : 0,1
+9	2	4	lokasi min : 1,2
+3	8	7	lokasi min : 0,3
+ITER 0
+
+
+6 [85]	1 [35]	9 [0]	3 [45]	| 70	T. Alloc : 165	AC * S = 332.50	Status = ER	
+11 [0]	5 [0]	2 [50]	8 [0]	| 55	T. Alloc : 50	AC * S = 357.50	
+10 [0]	12 [0]	4 [0]	7 [0]	| 90	T. Alloc : 0	AC * S = 742.50	
+
+FLC[0] = 0, SLC[0] = 2
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 0, SLC[3] = 2
+
+diff[0] = 4
+diff[1] = 4
+diff[3] = 4
+FI-SAM kolom 0: SDiff=4, transfer=85, fit_score=0
+FI-SAM kolom 1: SDiff=4, transfer=35, fit_score=1
+FI-SAM kolom 3: SDiff=4, transfer=45, fit_score=0
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 0 duluITER 1
+
+
+6 [0]	1 [35]	9 [0]	3 [45]	| 70	T. Alloc : 80	AC * S = 332.50	Status = ER	
+11 [0]	5 [0]	2 [50]	8 [0]	| 55	T. Alloc : 50	AC * S = 357.50	
+10 [85]	12 [0]	4 [0]	7 [0]	| 90	T. Alloc : 85	AC * S = 742.50	
+
+FLC[0] = -1, SLC[0] = -1
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 0, SLC[3] = 2
+
+diff[1] = 4
+diff[3] = 4
+FI-SAM kolom 1: SDiff=4, transfer=10, fit_score=1
+FI-SAM kolom 3: SDiff=4, transfer=10, fit_score=1
+Selisih terkecil ada di kolom ke : 3
+ER Lebih Kecil 
+satisfy supply baris index 0 duluheyITER 2
+
+
+6 [0]	1 [35]	9 [0]	3 [35]	| 70	T. Alloc : 70	AC * S = 332.50	Status = SATISFY
+11 [0]	5 [0]	2 [50]	8 [0]	| 55	T. Alloc : 50	AC * S = 357.50	
+10 [85]	12 [0]	4 [0]	7 [10]	| 90	T. Alloc : 95	AC * S = 742.50	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 2, SLC[3] = 1
+
+diff[0] = 1
+diff[3] = 1
+FI-SAM kolom 0: SDiff=1, transfer=5, fit_score=0
+FI-SAM kolom 3: SDiff=1, transfer=5, fit_score=0
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 1 dulu - elselebihkecil
+ITER 3
+
+
+6 [0]	1 [35]	9 [0]	3 [35]	| 70	T. Alloc : 70	AC * S = 332.50	Status = SATISFY
+11 [5]	5 [0]	2 [50]	8 [0]	| 55	T. Alloc : 55	AC * S = 357.50	Status = SATISFY
+10 [80]	12 [0]	4 [0]	7 [10]	| 90	T. Alloc : 90	AC * S = 742.50	Status = SATISFY
+
+Sudah habis
+
+6 [0]	1 [35]	9 [0]	3 [35]	| 70	Total alloc : 70	
+11 [5]	5 [0]	2 [50]	8 [0]	| 55	Total alloc : 55	
+10 [80]	12 [0]	4 [0]	7 [10]	| 90	Total alloc : 90	
+
+Jumlah iterasi yang dijalankan: 3
+Total Alokasi tabel adalah: 1165

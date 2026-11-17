@@ -1,0 +1,10 @@
+
+
+46 [0]	74 [0]	9 [461]	28 [0]	99 [0]	| 461	Total alloc : 461	
+12 [38]	75 [0]	6 [0]	36 [0]	48 [239]	| 277	Total alloc : 277	
+35 [240]	199 [0]	4 [0]	5 [116]	71 [0]	| 356	Total alloc : 356	
+61 [0]	81 [0]	44 [0]	88 [0]	9 [488]	| 488	Total alloc : 488	
+85 [0]	60 [60]	14 [0]	25 [0]	79 [333]	| 393	Total alloc : 393	
+
+Jumlah iterasi yang dijalankan: 4
+Total Alokasi tabel adalah: 59356

@@ -1,0 +1,74 @@
+average_cost[0] = 15.75
+average_cost[1] = 19.25
+average_cost[2] = 26.00
+average_cost_multiply_supply[0] = 1890.00
+average_cost_multiply_supply[1] = 1347.50
+average_cost_multiply_supply[2] = 1300.00
+Jumlah Supply: 3
+Jumlah Demand: 4
+
+
+(Tabel Awal)
+--------------------------------------------
+20	22	17	4	| 120
+24	37	9	7	| 70
+32	37	20	15	| 50
+_______	_______	_______	_______	
+60	40	30	110	
+--------------------------------------------
+
+20	24	32	lokasi min : 0,0
+22	37	37	lokasi min : 0,1
+17	9	20	lokasi min : 1,2
+4	7	15	lokasi min : 0,3
+ITER 0
+
+
+20 [60]	22 [40]	17 [0]	4 [110]	| 120	T. Alloc : 210	AC * S = 1890.00	Status = ER	
+24 [0]	37 [0]	9 [30]	7 [0]	| 70	T. Alloc : 30	AC * S = 1347.50	
+32 [0]	37 [0]	20 [0]	15 [0]	| 50	T. Alloc : 0	AC * S = 1300.00	
+
+FLC[0] = 0, SLC[0] = 1
+FLC[1] = 0, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 0, SLC[3] = 1
+
+diff[0] = 4
+diff[1] = 15
+diff[3] = 3
+Selisih terkecil ada di kolom ke : 3
+ER Lebih Kecil 
+satisfy supply baris index 1 dulu - elselebihkecil
+ITER 1
+
+
+20 [60]	22 [40]	17 [0]	4 [70]	| 120	T. Alloc : 170	AC * S = 1890.00	Status = ER	
+24 [0]	37 [0]	9 [30]	7 [40]	| 70	T. Alloc : 70	AC * S = 1347.50	Status = SATISFY
+32 [0]	37 [0]	20 [0]	15 [0]	| 50	T. Alloc : 0	AC * S = 1300.00	
+
+FLC[0] = 0, SLC[0] = 2
+FLC[1] = 0, SLC[1] = 2
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 0, SLC[3] = 2
+
+diff[0] = 12
+diff[1] = 15
+diff[3] = 11
+Selisih terkecil ada di kolom ke : 3
+ER Lebih Kecil 
+satisfy supply baris index 2 dulu - elselebihkecil
+ITER 2
+
+
+20 [60]	22 [40]	17 [0]	4 [20]	| 120	T. Alloc : 120	AC * S = 1890.00	Status = SATISFY
+24 [0]	37 [0]	9 [30]	7 [40]	| 70	T. Alloc : 70	AC * S = 1347.50	Status = SATISFY
+32 [0]	37 [0]	20 [0]	15 [50]	| 50	T. Alloc : 50	AC * S = 1300.00	Status = SATISFY
+
+Sudah habis
+
+20 [60]	22 [40]	17 [0]	4 [20]	| 120	Total alloc : 120	
+24 [0]	37 [0]	9 [30]	7 [40]	| 70	Total alloc : 70	
+32 [0]	37 [0]	20 [0]	15 [50]	| 50	Total alloc : 50	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 3460

@@ -1,0 +1,52 @@
+average_cost[0] = 5.33
+average_cost[1] = 6.00
+average_cost[2] = 12.00
+average_cost_multiply_supply[0] = 373.33
+average_cost_multiply_supply[1] = 300.00
+average_cost_multiply_supply[2] = 600.00
+Jumlah Supply: 3
+Jumlah Demand: 3
+
+
+(Tabel Awal)
+--------------------------------------------
+6	1	9	| 70
+11	5	2	| 50
+10	12	14	| 50
+_______	_______	_______	
+85	35	50	
+--------------------------------------------
+
+6	11	10	lokasi min : 0,0
+1	5	12	lokasi min : 0,1
+9	2	14	lokasi min : 1,2
+ITER 0
+
+
+6 [85]	1 [35]	9 [0]	| 70	T. Alloc : 120	AC * S = 373.33	Status = ER	
+11 [0]	5 [0]	2 [50]	| 50	T. Alloc : 50	AC * S = 300.00	Status = SATISFY
+10 [0]	12 [0]	14 [0]	| 50	T. Alloc : 0	AC * S = 600.00	
+
+FLC[0] = 0, SLC[0] = 2
+FLC[1] = 0, SLC[1] = 2
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 4
+diff[1] = 11
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 0 duluheyITER 1
+
+
+6 [35]	1 [35]	9 [0]	| 70	T. Alloc : 70	AC * S = 373.33	Status = SATISFY
+11 [0]	5 [0]	2 [50]	| 50	T. Alloc : 50	AC * S = 300.00	Status = SATISFY
+10 [50]	12 [0]	14 [0]	| 50	T. Alloc : 50	AC * S = 600.00	Status = SATISFY
+
+Sudah habis
+
+6 [35]	1 [35]	9 [0]	| 70	Total alloc : 70	
+11 [0]	5 [0]	2 [50]	| 50	Total alloc : 50	
+10 [50]	12 [0]	14 [0]	| 50	Total alloc : 50	
+
+Jumlah iterasi yang dijalankan: 1
+Total Alokasi tabel adalah: 845

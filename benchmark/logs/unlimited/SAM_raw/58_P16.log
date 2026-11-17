@@ -1,0 +1,73 @@
+average_cost[0] = 8.67
+average_cost[1] = 4.33
+average_cost[2] = 6.67
+average_cost[3] = 7.00
+average_cost_multiply_supply[0] = 173.33
+average_cost_multiply_supply[1] = 151.67
+average_cost_multiply_supply[2] = 100.00
+average_cost_multiply_supply[3] = 70.00
+Jumlah Supply: 4
+Jumlah Demand: 3
+
+
+(Tabel Awal)
+--------------------------------------------
+11	5	10	| 20
+6	5	2	| 35
+11	3	6	| 15
+2	16	3	| 10
+_______	_______	_______	
+25	20	35	
+--------------------------------------------
+
+11	6	11	2	lokasi min : 3,0
+5	5	3	16	lokasi min : 2,1
+10	2	6	3	lokasi min : 1,2
+ITER 0
+
+
+11 [0]	5 [0]	10 [0]	| 20	T. Alloc : 0	AC * S = 173.33	
+6 [0]	5 [0]	2 [35]	| 35	T. Alloc : 35	AC * S = 151.67	Status = SATISFY
+11 [0]	3 [20]	6 [0]	| 15	T. Alloc : 20	AC * S = 100.00	Status = ER	
+2 [25]	16 [0]	3 [0]	| 10	T. Alloc : 25	AC * S = 70.00	Status = ER	
+
+FLC[0] = 3, SLC[0] = 0
+FLC[1] = 2, SLC[1] = 0
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 9
+diff[1] = 2
+Selisih terkecil ada di kolom ke : 1
+satisfy supply baris index 0 dulu - elselebihbesar
+ITER 1
+
+
+11 [0]	5 [20]	10 [0]	| 20	T. Alloc : 20	AC * S = 173.33	Status = SATISFY
+6 [0]	5 [0]	2 [35]	| 35	T. Alloc : 35	AC * S = 151.67	Status = SATISFY
+11 [0]	3 [0]	6 [0]	| 15	T. Alloc : 0	AC * S = 100.00	
+2 [25]	16 [0]	3 [0]	| 10	T. Alloc : 25	AC * S = 70.00	Status = ER	
+
+FLC[0] = 3, SLC[0] = 2
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = -1, SLC[2] = -1
+
+diff[0] = 9
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 3 duluheyITER 2
+
+
+11 [0]	5 [20]	10 [0]	| 20	T. Alloc : 20	AC * S = 173.33	Status = SATISFY
+6 [0]	5 [0]	2 [35]	| 35	T. Alloc : 35	AC * S = 151.67	Status = SATISFY
+11 [15]	3 [0]	6 [0]	| 15	T. Alloc : 15	AC * S = 100.00	Status = SATISFY
+2 [10]	16 [0]	3 [0]	| 10	T. Alloc : 10	AC * S = 70.00	Status = SATISFY
+
+Sudah habis
+
+11 [0]	5 [20]	10 [0]	| 20	Total alloc : 20	
+6 [0]	5 [0]	2 [35]	| 35	Total alloc : 35	
+11 [15]	3 [0]	6 [0]	| 15	Total alloc : 15	
+2 [10]	16 [0]	3 [0]	| 10	Total alloc : 10	
+
+Jumlah iterasi yang dijalankan: 2
+Total Alokasi tabel adalah: 355

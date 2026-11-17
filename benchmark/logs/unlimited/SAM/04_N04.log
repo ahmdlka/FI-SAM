@@ -1,0 +1,97 @@
+average_cost[0] = 5.20
+average_cost[1] = 6.00
+average_cost[2] = 4.00
+average_cost_multiply_supply[0] = 520.00
+average_cost_multiply_supply[1] = 750.00
+average_cost_multiply_supply[2] = 700.00
+Jumlah Supply: 3
+Jumlah Demand: 5
+
+
+(Tabel Awal)
+--------------------------------------------
+6	4	4	7	5	| 100
+5	6	7	4	8	| 125
+3	4	6	3	4	| 175
+_______	_______	_______	_______	_______	
+60	80	85	105	70	
+--------------------------------------------
+
+6	5	3	lokasi min : 2,0
+4	6	coordinat 2, 1
+4	lokasi min : 2,1
+4	7	6	lokasi min : 0,2
+7	4	3	lokasi min : 2,3
+5	8	4	lokasi min : 2,4
+ITER 0
+
+
+6 [0]	4 [0]	4 [85]	7 [0]	5 [0]	| 100	T. Alloc : 85	AC * S = 520.00	
+5 [0]	6 [0]	7 [0]	4 [0]	8 [0]	| 125	T. Alloc : 0	AC * S = 750.00	
+3 [60]	4 [80]	6 [0]	3 [105]	4 [70]	| 175	T. Alloc : 315	AC * S = 700.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = 2, SLC[1] = 0
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 2, SLC[3] = 1
+FLC[4] = 2, SLC[4] = 0
+
+diff[0] = 2
+diff[1] = 0
+diff[3] = 1
+diff[4] = 1
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 0 dulu - elselebihkecil
+ITER 1
+
+
+6 [0]	4 [15]	4 [85]	7 [0]	5 [0]	| 100	T. Alloc : 100	AC * S = 520.00	Status = SATISFY
+5 [0]	6 [0]	7 [0]	4 [0]	8 [0]	| 125	T. Alloc : 0	AC * S = 750.00	
+3 [60]	4 [65]	6 [0]	3 [105]	4 [70]	| 175	T. Alloc : 300	AC * S = 700.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = 2, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = 2, SLC[3] = 1
+FLC[4] = 2, SLC[4] = 1
+
+diff[0] = 2
+diff[1] = 2
+diff[3] = 1
+diff[4] = 4
+Selisih terkecil ada di kolom ke : 3
+ER Lebih Kecil 
+satisfy supply baris index 2 duluITER 2
+
+
+6 [0]	4 [15]	4 [85]	7 [0]	5 [0]	| 100	T. Alloc : 100	AC * S = 520.00	Status = SATISFY
+5 [0]	6 [0]	7 [0]	4 [105]	8 [0]	| 125	T. Alloc : 105	AC * S = 750.00	
+3 [60]	4 [65]	6 [0]	3 [0]	4 [70]	| 175	T. Alloc : 195	AC * S = 700.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = 2, SLC[1] = 1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = -1, SLC[3] = -1
+FLC[4] = 2, SLC[4] = 1
+
+diff[0] = 2
+diff[1] = 2
+diff[4] = 4
+Selisih terkecil ada di kolom ke : 1
+ER Lebih Kecil 
+satisfy supply baris index 2 duluheyITER 3
+
+
+6 [0]	4 [15]	4 [85]	7 [0]	5 [0]	| 100	T. Alloc : 100	AC * S = 520.00	Status = SATISFY
+5 [0]	6 [20]	7 [0]	4 [105]	8 [0]	| 125	T. Alloc : 125	AC * S = 750.00	Status = SATISFY
+3 [60]	4 [45]	6 [0]	3 [0]	4 [70]	| 175	T. Alloc : 175	AC * S = 700.00	Status = SATISFY
+
+Sudah habis
+
+6 [0]	4 [15]	4 [85]	7 [0]	5 [0]	| 100	Total alloc : 100	
+5 [0]	6 [20]	7 [0]	4 [105]	8 [0]	| 125	Total alloc : 125	
+3 [60]	4 [45]	6 [0]	3 [0]	4 [70]	| 175	Total alloc : 175	
+
+Jumlah iterasi yang dijalankan: 3
+Total Alokasi tabel adalah: 1580

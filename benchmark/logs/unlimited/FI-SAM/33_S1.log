@@ -1,0 +1,169 @@
+average_cost[0] = 21.00
+average_cost[1] = 25.80
+average_cost[2] = 27.00
+average_cost[3] = 24.60
+average_cost[4] = 16.20
+average_cost_multiply_supply[0] = 3150.00
+average_cost_multiply_supply[1] = 6192.00
+average_cost_multiply_supply[2] = 3645.00
+average_cost_multiply_supply[3] = 7380.00
+average_cost_multiply_supply[4] = 4617.00
+Jumlah Supply: 5
+Jumlah Demand: 5
+
+
+(Tabel Awal)
+--------------------------------------------
+27	27	9	33	9	| 150
+36	15	33	30	15	| 240
+18	21	27	36	33	| 135
+33	36	21	24	9	| 300
+27	9	9	21	15	| 285
+_______	_______	_______	_______	_______	
+270	195	210	270	165	
+--------------------------------------------
+
+27	36	18	33	27	lokasi min : 2,0
+27	15	21	36	9	lokasi min : 4,1
+9	33	27	21	coordinat 4, 2
+9	lokasi min : 4,2
+33	30	36	24	21	lokasi min : 4,3
+9	15	33	coordinat 3, 4
+9	15	lokasi min : 3,4
+ITER 0
+
+
+27 [0]	27 [0]	9 [0]	33 [0]	9 [0]	| 150	T. Alloc : 0	AC * S = 3150.00	
+36 [0]	15 [0]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 0	AC * S = 6192.00	
+18 [270]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 270	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [0]	9 [165]	| 300	T. Alloc : 165	AC * S = 7380.00	
+27 [0]	9 [195]	9 [210]	21 [270]	15 [0]	| 285	T. Alloc : 675	AC * S = 4617.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 0
+FLC[1] = 4, SLC[1] = 1
+FLC[2] = 4, SLC[2] = 0
+FLC[3] = 4, SLC[3] = 3
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 9
+diff[1] = 6
+diff[2] = 0
+diff[3] = 3
+Selisih terkecil ada di kolom ke : 2
+satisfy supply baris index 4 duluITER 1
+
+
+27 [0]	27 [0]	9 [210]	33 [0]	9 [0]	| 150	T. Alloc : 210	AC * S = 3150.00	Status = ER	
+36 [0]	15 [0]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 0	AC * S = 6192.00	
+18 [270]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 270	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [0]	9 [165]	| 300	T. Alloc : 165	AC * S = 7380.00	
+27 [0]	9 [195]	9 [0]	21 [270]	15 [0]	| 285	T. Alloc : 465	AC * S = 4617.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 3
+FLC[1] = 4, SLC[1] = 1
+FLC[2] = 0, SLC[2] = 3
+FLC[3] = 4, SLC[3] = 3
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 15
+diff[1] = 6
+diff[2] = 12
+diff[3] = 3
+Selisih terkecil ada di kolom ke : 3
+satisfy supply baris index 3 dulu - elselebihkecil
+ITER 2
+
+
+27 [0]	27 [0]	9 [210]	33 [0]	9 [0]	| 150	T. Alloc : 210	AC * S = 3150.00	Status = ER	
+36 [0]	15 [0]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 0	AC * S = 6192.00	
+18 [270]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 270	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	T. Alloc : 300	AC * S = 7380.00	Status = SATISFY
+27 [0]	9 [195]	9 [0]	21 [135]	15 [0]	| 285	T. Alloc : 330	AC * S = 4617.00	Status = ER	
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = 4, SLC[1] = 1
+FLC[2] = 0, SLC[2] = 1
+FLC[3] = 4, SLC[3] = 1
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 18
+diff[1] = 6
+diff[2] = 24
+diff[3] = 9
+Selisih terkecil ada di kolom ke : 1
+satisfy supply baris index 1 dulu - elselebihbesar
+ITER 3
+
+
+27 [0]	27 [0]	9 [210]	33 [0]	9 [0]	| 150	T. Alloc : 210	AC * S = 3150.00	Status = ER	
+36 [0]	15 [195]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 195	AC * S = 6192.00	
+18 [270]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 270	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	T. Alloc : 300	AC * S = 7380.00	Status = SATISFY
+27 [0]	9 [0]	9 [0]	21 [135]	15 [0]	| 285	T. Alloc : 135	AC * S = 4617.00	
+
+FLC[0] = 2, SLC[0] = 4
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = 0, SLC[2] = 4
+FLC[3] = -1, SLC[3] = -1
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 9
+diff[2] = 0
+Selisih terkecil ada di kolom ke : 2
+satisfy supply baris index 4 dulu - elselebihkecil
+ITER 4
+
+
+27 [0]	27 [0]	9 [60]	33 [0]	9 [0]	| 150	T. Alloc : 60	AC * S = 3150.00	
+36 [0]	15 [195]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 195	AC * S = 6192.00	
+18 [270]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 270	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	T. Alloc : 300	AC * S = 7380.00	Status = SATISFY
+27 [0]	9 [0]	9 [150]	21 [135]	15 [0]	| 285	T. Alloc : 285	AC * S = 4617.00	Status = SATISFY
+
+FLC[0] = 2, SLC[0] = 0
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = -1, SLC[3] = -1
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 9
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 0 dulu - elselebihkecil
+ITER 5
+
+
+27 [90]	27 [0]	9 [60]	33 [0]	9 [0]	| 150	T. Alloc : 150	AC * S = 3150.00	Status = SATISFY
+36 [0]	15 [195]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 195	AC * S = 6192.00	
+18 [180]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 180	AC * S = 3645.00	Status = ER	
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	T. Alloc : 300	AC * S = 7380.00	Status = SATISFY
+27 [0]	9 [0]	9 [150]	21 [135]	15 [0]	| 285	T. Alloc : 285	AC * S = 4617.00	Status = SATISFY
+
+FLC[0] = 2, SLC[0] = 1
+FLC[1] = -1, SLC[1] = -1
+FLC[2] = -1, SLC[2] = -1
+FLC[3] = -1, SLC[3] = -1
+FLC[4] = -1, SLC[4] = -1
+
+diff[0] = 18
+Selisih terkecil ada di kolom ke : 0
+ER Lebih Kecil 
+satisfy supply baris index 2 duluheyITER 6
+
+
+27 [90]	27 [0]	9 [60]	33 [0]	9 [0]	| 150	T. Alloc : 150	AC * S = 3150.00	Status = SATISFY
+36 [45]	15 [195]	33 [0]	30 [0]	15 [0]	| 240	T. Alloc : 240	AC * S = 6192.00	Status = SATISFY
+18 [135]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	T. Alloc : 135	AC * S = 3645.00	Status = SATISFY
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	T. Alloc : 300	AC * S = 7380.00	Status = SATISFY
+27 [0]	9 [0]	9 [150]	21 [135]	15 [0]	| 285	T. Alloc : 285	AC * S = 4617.00	Status = SATISFY
+
+Sudah habis
+
+27 [90]	27 [0]	9 [60]	33 [0]	9 [0]	| 150	Total alloc : 150	
+36 [45]	15 [195]	33 [0]	30 [0]	15 [0]	| 240	Total alloc : 240	
+18 [135]	21 [0]	27 [0]	36 [0]	33 [0]	| 135	Total alloc : 135	
+33 [0]	36 [0]	21 [0]	24 [135]	9 [165]	| 300	Total alloc : 300	
+27 [0]	9 [0]	9 [150]	21 [135]	15 [0]	| 285	Total alloc : 285	
+
+Jumlah iterasi yang dijalankan: 6
+Total Alokasi tabel adalah: 18855
