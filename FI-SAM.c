@@ -345,13 +345,13 @@ int main(int argc, char *argv[]){
 							printf("FI-SAM kolom %d: SDiff=%d, transfer=%d, fit_score=%d\n",
 							       q, sdiff, t, fit_score);
 
-							/* TAMBAHAN FI-SAM (Step 6c-6d): F terkecil, kemudian
-							 * alokasi FLC terbesar (sesuai README, bukan demand awal).
-							 * Jika keduanya sama, indeks terkecil dipertahankan
+							/* MODIFIKASI FI-SAM (Step 6c-6d): F terkecil, kemudian
+							 * demand awal kolom terbesar jika fit score masih seri.
+							 * Jika demand juga sama, indeks terkecil dipertahankan
 							 * karena kolom diperiksa berurutan dari indeks 0. */
 							if(fit_score < fit_terbaik ||
 							   (fit_score == fit_terbaik &&
-							    alloc[f][q] > alloc[flc[coorselisih]][coorselisih])){
+							    demand[q] > demand[coorselisih])){
 								coorselisih = q;
 								fit_terbaik = fit_score;
 							}
