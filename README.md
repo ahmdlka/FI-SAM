@@ -1,4 +1,4 @@
-# FI-SAM
+# FI-SAM (Fit-Informed Supply Average Method)
 # Modified Supply Average Method (SAM) — Tie-Break Fit pada Step 6
 
 Dokumentasi ini menjelaskan alur kerja algoritma **Initial Basic Feasible Solution (IBFS)** untuk menyelesaikan *Balanced Transportation Problem* (TP) menggunakan metode **Supply Average Method (SAM)** asli (Amaliah dkk., 2026) serta versi modifikasinya (**Modified SAM — Opsi 4: Tie-Break Fit**).
