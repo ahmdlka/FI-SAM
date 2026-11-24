@@ -351,7 +351,7 @@ int main(int argc, char *argv[]){
 							 * karena kolom diperiksa berurutan dari indeks 0. */
 							if(fit_score < fit_terbaik ||
 							   (fit_score == fit_terbaik &&
-							    demand[q] > demand[coorselisih])){
+							    alloc[flc[q]][q] > alloc[flc[coorselisih]][coorselisih])){
 								coorselisih = q;
 								fit_terbaik = fit_score;
 							}
